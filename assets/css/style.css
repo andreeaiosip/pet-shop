@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 /*
@@ -6,27 +8,29 @@
  =============================== 
  */
 
-
- body {
-     padding: 0;
-     margin: 0;
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     font-size: 1rem;
+body {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
 }
+
 
 /* The below code helped me to fix the footer, because on the Home page was not enough text to cover the full screen*/
- main {
-     flex: 1;
-     margin-top: 44px;
-     padding-bottom: 30px;
+
+main {
+	flex: 1;
+	margin-top: 44px;
+	padding-bottom: 30px;
 }
 
-
- .row, .container, .container-fluid {
-     margin:0;
-     padding:0;
+.row,
+.container,
+.container-fluid {
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -36,93 +40,90 @@ Navbar
 =============================== 
 */
 
-
- .navbar {
-     background-color: #fa6501;
+.navbar {
+	background-color: #fa6501;
 }
 
-
- .brand-phone {
-     font-family: 'Open Sans', sans-serif;;
-     padding-left: 15px;
-     display: inline-block;
+.main-title {
+	padding-left: 15px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 1.2rem;
 }
+
+.title-logo {
+	margin-bottom: 0 !important;
+}
+
 
 /*The code below styles the phone number on the navbar*/
-a.tel>i, a.tel {
-    text-decoration: none;
-    color: #fafafa;
+
+a.tel>i,
+a.tel {
+	text-decoration: none;
+	color: #fafafa;
 }
 
- .nav-item {
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 700;
-     text-transform: uppercase;
-     text-align: centre;
+.nav-item {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: centre;
 }
 
-
-/* The code below is a formula to overwrite bootstrap toggler colour taken from GiHub https://github.com/css/csso/issues/377 */
-/* .custom-toggler .navbar-toggler-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 224, 252, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}*/
-
-
- .custom-toggler.navbar-toggler {
-     outline: none;
+.custom-toggler.navbar-toggler {
+	outline: none;
 }
 
-
- .navbar-light .navbar-nav .nav-item .nav-link {
-     color: #fafafa;
-     font-weight: 400;
-     border-radius: 4px;
-     display: inline-block !important;
+.navbar-light .navbar-nav .nav-item .nav-link {
+	color: #fafafa;
+	font-weight: 400;
+	border-radius: 4px;
+	display: inline-block !important;
 }
 
-
- .nav-item {
-     text-align: center;
+.nav-item {
+	text-align: center;
 }
-
 
 
 /*The below code gives the bold effect to the active tab */
- .active .nav-link {
-     color: #fafafa !important;
-     font-weight: 700 !important;
+
+.active .nav-link {
+	color: #fafafa !important;
+	font-weight: 700 !important;
 }
 
 
 /* The next four declarations are for the hoover effect underline for the navbar tabs - displayed only to the screens above 768px width. Code found on YouTube https://www.youtube.com/watch?v=IYTBAQRBsw0 */
- nav ul li a, nav ul li a:after, nav ul li a:before {
-     transition: all .5s;
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+	transition: all .5s;
 }
 
-
- nav.stroke ul li a {
-     position: relative;
+nav.stroke ul li a {
+	position: relative;
 }
 
-
- nav.stroke ul li a:after {
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     margin: auto;
-     width: 0%;
-     content: '.';
-     color: transparent;
-     background: rgb(29, 2, 187);
-     height: 1.5px;
-     display: none;
+nav.stroke ul li a:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #fafafa;
+	height: 1.5px;
+	display: none;
 }
 
-
- nav.stroke ul li a:hover:after {
-     width: 70%;
-     display: none;
+nav.stroke ul li a:hover:after {
+	width: 70%;
+	display: none;
 }
 
 
@@ -132,57 +133,14 @@ Home Page
 =============================== 
 */
 
-/*Main title on Home page*/
- .page-title {
-     font-family: 'Allerta Stencil', cursive;
-     padding: 20px 20px 10px 20px;
-     letter-spacing: 1.4px;
-}
-
-
- .page-title-first {
-     font-size: 1.2rem;
-     font-weight: 700;
-     margin-bottom: 5px;
-}
-
-
- .page-title-second, .testimonial-title {
-     font-weight: 500;
-     margin-bottom: 5px;
-}
 
 /*Horizontal line added as a separation between photo carousel and testimonials section.*/
- hr {
-     border: 0;
-     height: 2px;
-     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
-     margin-bottom: 20px;
-}
 
-
- .testimonials-row {
-     margin:0 !important;
-     padding:0;
-}
-
-
- .testimonials {
-     padding: 8px;
-     margin:0 !important;
-}
-
-
- .client {
-     margin-top: 20px;
-}
-
-
- .client>img {
-     width: 55px;
-     float: left;
-     margin-right: 12px;
-     border-radius: 50%;
+hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+	margin-bottom: 20px;
 }
 
 
@@ -192,45 +150,106 @@ Hero Image
 =============================== 
 */
 
-/*Profession of the founders.*/
-.card-dr>.card-title {
-    color: #082629;
-}
-
- .hero-image {
-     padding: 30px;
-     margin-bottom: 20px;
-     color: white;
-     min-height: 40vh;
-     width: 100%;
-     display: flex;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center;
+.hero-image {
+	padding: 30px;
+	margin-bottom: 20px;
+	color: white;
+	min-height: 40vh;
+	width: 100%;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 
 /*For the About page - hero image, there was need for a larger hero image.*/
- .about-us-image {
-     min-height: 45vh;
+
+.about-us-image {
+	min-height: 45vh;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+
+.hero-text {
+	max-width: 60%;
+	margin: auto;
 }
 
 
- .hero-image {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 30px;
+/* 
+=============================== 
+Carousel 
+=============================== 
+*/
+
+#petcarousel {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding-top: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 15px;
+	height: 15px;
 }
 
 
- .hero-text {
-     max-width: 60%;
-     margin: auto;
+/*Profession of the founders.*/
+
+.card-dr>.card-title {
+	color: #082629;
+}
+
+.hero-image {
+	padding: 30px;
+	margin-bottom: 20px;
+	color: white;
+	min-height: 40vh;
+	width: 100%;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+
+/*For the About page - hero image, there was need for a larger hero image.*/
+
+.about-us-image {
+	min-height: 45vh;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background5.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+
+.hero-text {
+	max-width: 60%;
+	margin: auto;
 }
 
 
@@ -240,74 +259,70 @@ Contact Us page
 =============================== 
 */
 
- .contact-form {
-     margin-top: 30px;
+.contact-form {
+	margin-top: 30px;
 }
-
 
 .contact-place {
-    padding-left: 55px;
+	padding-left: 55px;
 }
 
-
- form {
-     border-radius: 5px;
-     background-color: #f2f2f2;
-     padding: 20px;
+form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
 }
 
-
- .form-title {
-     font-weight: 600;
+.form-title {
+	font-weight: 600;
 }
+
 
 /*This declaration helps to centre all text in a div with multiple divs inside.*/
+
 .contact-us-image * {
-    text-align: center;
+	text-align: center;
 }
 
- .contact-us {
-     padding-bottom: 15px;
+.contact-us {
+	padding-bottom: 15px;
 }
 
  ::placeholder {
-     font-size: .7rem;
+	font-size: .7rem;
 }
 
-
- .address>p {
-     padding-left: 40px;
+.address>p {
+	padding-left: 40px;
 }
 
-
- .btn-success, .btn-secondary {
-     padding: 5px 9px;
-     font-size: .8rem;
+.btn-success,
+.btn-secondary {
+	padding: 5px 9px;
+	font-size: .8rem;
 }
 
 
 /*Styling for the Font Awesome icons on the hero image.*/
- .envelope .phonenumber {
-     display: block;
-     text-decoration: none;
-     padding-right: 5%;
-     text-align: center;
+
+.envelope .phonenumber {
+	display: block;
+	text-decoration: none;
+	padding-right: 5%;
+	text-align: center;
 }
 
-
- .phonenumber {
-     padding-left:0;
-     display: inline-block !important;
+.phonenumber {
+	padding-left: 0;
+	display: inline-block !important;
 }
 
-
- .opening-hours>ul>li {
-     display: block;
-     text-decoration: none;
-     padding-left: 0;
-     margin: auto;
+.opening-hours>ul>li {
+	display: block;
+	text-decoration: none;
+	padding-left: 0;
+	margin: auto;
 }
-
 
 
 /* 
@@ -316,58 +331,27 @@ About page
 =============================== 
 */
 
+
 /*Styling for the hero text.*/
- .history-container {
-     height: 70%;
-     padding: 0;
+
+.history-container {
+	height: 70%;
+	padding: 0;
+}
+
+.history {
+	max-width: 70%;
+	margin: auto;
+}
+
+.about-us-title {
+	padding-bottom: 20px;
 }
 
 
- .history {
-     max-width: 70%;
-     margin: auto;
-}
 
-
- .logo-partners>img {
-     height: 60px;
-     padding: 10px;
-}
-
-
- .about-us-title {
-     padding-bottom: 20px;
-}
-
-
-/* 
-=============================== 
-How it works page Card decks
-=============================== 
-*/
-
-.card-main {
-    margin: 0 auto;
-    padding: 5px;
-}
- .card-img-top {
-     height: 40px;
-     width: 40px;
-     margin-left: 20px;
-     margin-top: 35px;
-}
-
- .card {
-     text-align: center;
-     min-height: 33vh;
-}
-
- .steps {
-     margin-top: 20px;
-}
-
-.step-card {
-    margin-top: 7px;
+.main-content-products {
+    margin-top: 90px;
 }
 /* 
 =============================== 
@@ -375,66 +359,57 @@ Footer
 =============================== 
 */
 
-
- footer {
-
-     background-color: #fa6501 ;
-     color: #fafafa;
-     text-align: center;
-     padding: 20px 10px;
-     font-size: .8rem;
+footer {
+	background-color: #fa6501;
+	color: #fafafa;
+	text-align: center;
+	padding: 20px 10px;
+	font-size: .8rem;
 }
 
-
- .footer-top {
-     padding-top: 7px;
+.footer-top {
+	padding-top: 7px;
 }
 
-
- .terms {
-     font-size: .9rem;
-     margin-bottom: 10px;
+.terms {
+	font-size: .9rem;
+	margin-bottom: 10px;
 }
 
-
- footer>ul {
-     margin-bottom: 7px !important;
+footer>ul {
+	margin-bottom: 7px !important;
 }
 
-
- footer>p {
-     margin-top: 7px !important;
-     text-align: center;
+footer>p {
+	margin-top: 7px !important;
+	text-align: center;
 }
 
-
- footer>ul>li {
-     display: inline-block;
-     text-decoration: none;
-     padding-left: 5%;
-     padding-right: 5%;
-     font-size: .8rem;
+footer>ul>li {
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: .8rem;
 }
 
-
- footer .social-icons a {
-     padding-right: 5%;
-     padding-left: 5%;
-     font-size: 160%;
-     color:#fafafa;
+footer .social-icons a {
+	padding-right: 5%;
+	padding-left: 5%;
+	font-size: 160%;
+	color: #fafafa;
 }
 
-
- footer .social-icons a:hover {
-     color: #b9abab;
+footer .social-icons a:hover {
+	color: #b9abab;
 }
 
-
- footer .copyright>p {
-     font-size: .85rem;
-     padding-top: 10px;
-     padding-bottom: 3px;
+footer .copyright>p {
+	font-size: .85rem;
+	padding-top: 10px;
+	padding-bottom: 3px;
 }
+
 
 /* 
 =============================== 
@@ -442,11 +417,11 @@ Footer
 =============================== 
 */
 
-
 .page-wrap {
-    min-height: 100vh;
-    background: #40585c73;
+	min-height: 100vh;
+	background: #40585c73;
 }
+
 
 /* 
 =============================== 
@@ -454,83 +429,51 @@ Media Queries
 =============================== 
 */
 
+
 /* Mobile only*/
+
 
 /*Next two declaration will add bottom margin and padding to the call to action button on mobile.*/
 
 @media screen and (max-width: 766px) {
-
-    .quote {
-        margin-bottom: 25px; 
-        
-   }
-
-   #navbarSupportedContent .nav-item .quote {   
-        padding-left: 10px;
-        padding-right: 10px;
-  }
+	#navbarSupportedContent .nav-item .quote {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 
 /* Landscape phones and portrait tablets */
- @media screen and (min-width: 767px) {
-     .navbar-nav {
-         align-items: center;
-         padding-top: 5px;
-    }
 
-    
-
-    a.tel>i, a.tel {
-        font-size: .87rem;
-    }
-
-
-     .navbar-collapse {
-         text-align: center !important;
-    }
-
-
-     .logo-partners>img {
-         height: 100px;
-         padding: 5px 10px 5px 10px;
-    }
-
-
-     .contact-place {
-         margin-top: 30px;
-         padding-left: 30px;
-    }
-
-
-     .opening-hours>ul {
-         padding-left: 14px;
-    }
-
-/*Underline hoover effect for the navbar items displayed.*/
-     nav.stroke ul li a:after, nav.stroke ul li a:hover:after {
-         display: inline-block;
-    }
-
-
-     .page-title {
-         padding-top: 40px;
-    }
-
- }
+@media screen and (min-width: 767px) {
+	.navbar-nav {
+		align-items: center;
+		padding-top: 5px;
+	}
+	.navbar-collapse {
+		text-align: center !important;
+	}
+	.contact-place {
+		margin-top: 30px;
+		padding-left: 30px;
+	}
+	.opening-hours>ul {
+		padding-left: 14px;
+	}
+	/*Underline hoover effect for the navbar items displayed.*/
+	nav.stroke ul li a:after,
+	nav.stroke ul li a:hover:after {
+		display: inline-block;
+	}
+}
 
 
 /* Desktops and up */
- @media screen and (min-width: 992px) {
 
-    /*Hoover effect added to the phone number on the navbar.*/
-     .brand-phone {
-         transition:.5s;
-     }
-          
-     .brand-phone:hover {
-         transform:scale(1.1);
-     }
-
-
+@media screen and (min-width: 992px) {
+	/*Hoover effect added to the phone number on the navbar.*/
+	.brand-phone {
+		transition: .5s;
+	}
 }
+
