@@ -342,14 +342,16 @@ Products page
 
 .dog-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0,0,0,0.61);
-	
-}
+	padding-bottom: 20px;
 
-.dog-product-list ::after, ::before {
+}
+	
+
+/* .dog-product-list ::after, ::before {
 
     box-sizing: unset !important;
 
-}
+} */
 
 .sell {
 	border: none;
