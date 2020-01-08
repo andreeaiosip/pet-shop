@@ -329,10 +329,32 @@ form {
 Products page 
 =============================== 
 */
+#dog-food {
+	background-color: #fa6501;
+	text-align: center;
+	color: #fafafa;
+	margin-top: 50px;
+	padding: 10px 10px 10px 50px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #fa6501 , #0010ff8f);
+	
+}
 
-.product-category {
-    text-decoration: none;
+.sell {
+	border: none;
+	size: 30px auto;
+}
 
+
+
+/* 
+=============================== 
+Services page 
+=============================== 
+*/
+.services-list {
+	margin-top: 70px;
 }
 
 /* 
