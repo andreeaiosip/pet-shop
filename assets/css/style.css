@@ -510,6 +510,15 @@ Media Queries
 	.brand-phone {
 		transition: .5s;
 	}
+
+	.hero-text {
+		font-size: 30px;
+	}
+
+	.envelope,
+	.phonenumber {
+		font-size: 20px;
+	}
 }
 
 /* * {
