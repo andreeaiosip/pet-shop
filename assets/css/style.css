@@ -211,6 +211,7 @@ Contact Us page
 
 .contact-form {
 	margin-top: 30px;
+	width: 100%;
 }
 
 .contact-place {
@@ -290,7 +291,7 @@ Products page
 	
 }
 
-.dog-product-list {
+.category-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0,0,0,0.61);
 	padding-bottom: 20px;
 
@@ -323,7 +324,10 @@ About page
 =============================== 
 */
 
-
+.video {
+  width: 80%;
+  height: 80%;
+}
 /*Styling for the hero text.*/
 
 .history-container {
@@ -431,6 +435,10 @@ Media Queries
 	#navbarSupportedContent .nav-item .quote {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	.title-logo {
+		display: none;
 	}
 }
 
