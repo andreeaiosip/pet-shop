@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Righteous&display=swap');
 
 /*
  =============================== 
@@ -52,8 +52,13 @@ Navbar
 .main-title {
 	padding-left: 15px;
 	display: inline-block;
+	font-family: 'Righteous', cursive;
 	font-weight: 600;
 	font-size: 1.2rem;
+}
+
+.opening-line, .navbar-nav {
+	font-family: 'Righteous', cursive;
 }
 
 .title-logo {
@@ -61,7 +66,7 @@ Navbar
 }
 
 .nav-item {
-	font-family: 'Open Sans', sans-serif;
+	
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: centre;
@@ -182,6 +187,11 @@ Contact Us page
 	margin-top: 0;
 }
 
+.contact-map {
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
 form {
 	border-radius: 5px;
 	background-color: #f2f2f2;
@@ -193,7 +203,7 @@ form {
 }
 
 .contact-page-main {
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
  ::placeholder {
@@ -242,11 +252,17 @@ Products page
 	font-weight: bold;
 	background-image: linear-gradient(to right, #fa6501, #0010ff8f);
 }
-
+.contact-place>h5 {
+	margin-top: 0;
+}
 .main-content-products {
 	margin-top: 90px;
 }
 
+.contact-place {
+	margin: 0;
+	padding: 0;
+}
 .category-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0, 0, 0, 0.61);
 	padding-bottom: 20px;
@@ -273,6 +289,7 @@ Services page
 .services-list {
 	margin-top: 70px;
 }
+
 
 
 /* 
@@ -311,6 +328,10 @@ About page
 
 .story {
 	font-size: 20px;
+}
+
+.blue-color {
+	color: #256498;
 }
 
 
