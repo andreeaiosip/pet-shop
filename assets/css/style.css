@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 /*
@@ -15,6 +13,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-size: 1rem;
+}
+
+button>a {
+	color: #fafafa;
 }
 
 
@@ -42,9 +44,9 @@ Navbar
 
 .navbar {
 	background-color: #fa6501;
-	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .main-title {
@@ -56,15 +58,6 @@ Navbar
 
 .title-logo {
 	margin-bottom: 0 !important;
-}
-
-
-/*The code below styles the phone number on the navbar*/
-
-a.tel>i,
-a.tel {
-	text-decoration: none;
-	color: #fafafa;
 }
 
 .nav-item {
@@ -130,8 +123,24 @@ nav.stroke ul li a:hover:after {
 }
 
 
+/* 
+=============================== 
+Home Page
+=============================== 
+*/
 
+.home {
+	margin-top: 100px;
+}
 
+.icon {
+	height: 100px;
+}
+
+.icons-list {
+	margin-top: 30px;
+	font-style: italic;
+}
 
 
 /* 
@@ -157,22 +166,7 @@ Carousel
 	height: 15px;
 }
 
-.home {
-	margin-top: 100px;
-}
 
-.icon {
-	height: 100px;
-}
-
-.icons-list {
-	margin-top: 30px;
-	font-style: italic;
-}
-
-button>a {
-	color: #fafafa;
-}
 /* 
 =============================== 
 Contact Us page 
@@ -182,6 +176,10 @@ Contact Us page
 .contact-form {
 	margin-top: 30px;
 	width: 100%;
+}
+
+.contact-place>h5 {
+	margin-top: 0;
 }
 
 form {
@@ -194,23 +192,19 @@ form {
 	font-weight: 600;
 }
 
-
-
+.contact-page-main {
+	margin-top: 120px;
+}
 
  ::placeholder {
 	font-size: .7rem;
 }
-
-
 
 .btn-success,
 .btn-secondary {
 	padding: 5px 9px;
 	font-size: .8rem;
 }
-
-
-/*Styling for the Font Awesome icons on the hero image.*/
 
 .envelope .phonenumber {
 	display: block;
@@ -231,31 +225,32 @@ form {
 	margin: auto;
 }
 
+
 /* 
 =============================== 
 Products page 
 =============================== 
 */
-.products-outlined, .contact-place>h5 {
+
+.products-outlined,
+.contact-place>h5 {
 	background-color: #fa6501;
 	text-align: center;
 	color: #fafafa;
 	margin-top: 50px;
 	padding: 10px;
 	font-weight: bold;
-	background-image: linear-gradient(to right, #fa6501 , #0010ff8f);
-	
+	background-image: linear-gradient(to right, #fa6501, #0010ff8f);
 }
 
-.contact-place>h5 {
-	margin-top: 0;
+.main-content-products {
+	margin-top: 90px;
 }
+
 .category-product-list {
-	box-shadow: 10px 11px 12px -11px rgba(0,0,0,0.61);
+	box-shadow: 10px 11px 12px -11px rgba(0, 0, 0, 0.61);
 	padding-bottom: 20px;
-
 }
-	
 
 .sell {
 	border: none;
@@ -268,14 +263,17 @@ Products page
 	font-size: 18px;
 }
 
+
 /* 
 =============================== 
 Services page 
 =============================== 
 */
+
 .services-list {
 	margin-top: 70px;
 }
+
 
 /* 
 =============================== 
@@ -284,8 +282,8 @@ About page
 */
 
 .video {
-  height: 80%;
-  text-align: center;
+	height: 80%;
+	text-align: center;
 }
 
 .card-deck {
@@ -299,30 +297,23 @@ About page
 }
 
 .card-img-top {
-width: 60%;
-padding-top: 10px;
+	width: 60%;
+	padding-top: 10px;
 }
 
 .about-us-title {
 	padding-bottom: 20px;
 }
 
-
 .team {
 	margin-top: 120px;
-	
 }
 
 .story {
 	font-size: 20px;
 }
-.contact-page-main {
-	margin-top: 120px;
-}
 
-.main-content-products {
-    margin-top: 90px;
-}
+
 /* 
 =============================== 
 Footer 
@@ -383,18 +374,6 @@ footer .copyright>p {
 
 /* 
 =============================== 
-404 Page 
-=============================== 
-*/
-
-.page-wrap {
-	min-height: 100vh;
-	background: #40585c73;
-}
-
-
-/* 
-=============================== 
 Media Queries 
 =============================== 
 */
@@ -410,7 +389,6 @@ Media Queries
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-
 	.title-logo {
 		display: none;
 	}
@@ -427,10 +405,6 @@ Media Queries
 	.navbar-collapse {
 		text-align: center !important;
 	}
-	/* .contact-place {
-		margin-top: 30px;
-		padding-left: 30px;
-	} */
 	.opening-hours>ul {
 		padding-left: 14px;
 	}
@@ -445,23 +419,8 @@ Media Queries
 /* Desktops and up */
 
 @media screen and (min-width: 992px) {
-	/*Hoover effect added to the phone number on the navbar.*/
-	.brand-phone {
-		transition: .5s;
-	}
-
-	.hero-text {
-		font-size: 30px;
-	}
-
 	.envelope,
 	.phonenumber {
 		font-size: 20px;
 	}
 }
-
-/* * {
-	background: #000 !important;
-	color: #0f0 !important;
-	outline: solid #f00 1px !important;
-	} */
