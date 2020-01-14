@@ -318,7 +318,12 @@ Services page
 =============================== 
 */
 .services-list {
-	margin-top: 70px;
+	margin-top: 40px;
+}
+
+.card-deck {
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 /* 
@@ -422,6 +427,14 @@ footer .copyright>p {
 	background: #40585c73;
 }
 
+.card-img-top {
+	width: 30%;
+}
+
+.card-deck .card {
+    margin-bottom: 15px;
+    align-items: center;
+}
 
 /* 
 =============================== 
