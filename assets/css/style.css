@@ -33,6 +33,9 @@ main {
 	padding: 0;
 }
 
+.video-text {
+	margin: 5px;
+}
 
 /* 
 =============================== 
@@ -325,8 +328,9 @@ About page
 */
 
 .video {
-  width: 80%;
-  height: 80%;
+text-align:center;
+
+
 }
 /*Styling for the hero text.*/
 
