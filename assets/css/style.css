@@ -22,7 +22,7 @@ body {
 
 main {
 	flex: 1;
-	margin-top: 44px;
+	margin-top: 24px;
 	padding-bottom: 30px;
 }
 
@@ -156,8 +156,7 @@ Hero Image
 
 
 .hero-image {
-	padding: 30px;
-	margin-bottom: 20px;
+	padding: 20px;
 	color: white;
 	min-height: 40vh;
 	width: 100%;
@@ -166,7 +165,6 @@ Hero Image
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 30px;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
