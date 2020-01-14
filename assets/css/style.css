@@ -149,13 +149,16 @@ Carousel
 	height: 100%;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	padding-top: 50px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	width: 15px;
 	height: 15px;
+}
+
+.home {
+	margin-top: 100px;
 }
 
 
@@ -277,7 +280,7 @@ About page
 .card-deck {
 	margin: 0;
 	padding: 0;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .card {
@@ -293,6 +296,15 @@ padding-top: 10px;
 	padding-bottom: 20px;
 }
 
+
+.team {
+	margin-top: 120px;
+	
+}
+
+.story {
+	font-size: 20px;
+}
 .contact-page-main {
 	margin-top: 120px;
 }
