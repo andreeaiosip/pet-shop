@@ -22,7 +22,7 @@ body {
 
 main {
 	flex: 1;
-	margin-top: 24px;
+	margin-top: 44px;
 	padding-bottom: 30px;
 }
 
@@ -33,9 +33,6 @@ main {
 	padding: 0;
 }
 
-.video-text {
-	margin: 5px;
-}
 
 /* 
 =============================== 
@@ -133,51 +130,9 @@ nav.stroke ul li a:hover:after {
 }
 
 
-/* 
-=============================== 
-Hero Image 
-=============================== 
-*/
-
-/* .hero-image {
-	padding: 30px;
-	margin-bottom: 20px;
-	color: white;
-	min-height: 40vh;
-	width: 100%;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-} */
 
 
-.hero-image {
-	padding: 20px;
-	color: white;
-	min-height: 40vh;
-	width: 100%;
-	display: flex;	
-	background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.09)), url("../images/heroimg.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
 
-.hero-text {
-	max-width: 60%;
-	margin: auto;
-	font-weight: 400;
-}
 
 /* 
 =============================== 
@@ -215,10 +170,6 @@ Contact Us page
 	width: 100%;
 }
 
-.contact-place {
-	padding-left: 55px;
-}
-
 form {
 	border-radius: 5px;
 	background-color: #f2f2f2;
@@ -230,23 +181,13 @@ form {
 }
 
 
-/*This declaration helps to centre all text in a div with multiple divs inside.*/
 
-.contact-us-image * {
-	text-align: center;
-}
-
-.contact-us {
-	padding-bottom: 15px;
-}
 
  ::placeholder {
 	font-size: .7rem;
 }
 
-.address>p {
-	padding-left: 40px;
-}
+
 
 .btn-success,
 .btn-secondary {
@@ -281,17 +222,20 @@ form {
 Products page 
 =============================== 
 */
-.products-outlined {
+.products-outlined, .contact-place>h5 {
 	background-color: #fa6501;
 	text-align: center;
 	color: #fafafa;
 	margin-top: 50px;
-	padding: 10px 10px 10px 50px;
+	padding: 10px;
 	font-weight: bold;
 	background-image: linear-gradient(to right, #fa6501 , #0010ff8f);
 	
 }
 
+.contact-place>h5 {
+	margin-top: 0;
+}
 .category-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0,0,0,0.61);
 	padding-bottom: 20px;
@@ -316,12 +260,7 @@ Services page
 =============================== 
 */
 .services-list {
-	margin-top: 40px;
-}
-
-.card-deck {
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-top: 70px;
 }
 
 /* 
@@ -331,27 +270,32 @@ About page
 */
 
 .video {
-text-align:center;
-
-
+  height: 80%;
+  text-align: center;
 }
-/*Styling for the hero text.*/
 
-.history-container {
-	height: 70%;
+.card-deck {
+	margin: 0;
 	padding: 0;
+	padding-top: 30px;
 }
 
-.history {
-	max-width: 70%;
-	margin: auto;
+.card {
+	align-items: center;
+}
+
+.card-img-top {
+width: 60%;
+padding-top: 10px;
 }
 
 .about-us-title {
 	padding-bottom: 20px;
 }
 
-
+.contact-page-main {
+	margin-top: 120px;
+}
 
 .main-content-products {
     margin-top: 90px;
@@ -425,14 +369,6 @@ footer .copyright>p {
 	background: #40585c73;
 }
 
-.card-img-top {
-	width: 30%;
-}
-
-.card-deck .card {
-    margin-bottom: 15px;
-    align-items: center;
-}
 
 /* 
 =============================== 
@@ -468,10 +404,10 @@ Media Queries
 	.navbar-collapse {
 		text-align: center !important;
 	}
-	.contact-place {
+	/* .contact-place {
 		margin-top: 30px;
 		padding-left: 30px;
-	}
+	} */
 	.opening-hours>ul {
 		padding-left: 14px;
 	}
