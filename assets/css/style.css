@@ -164,6 +164,11 @@ Carousel
 .icon {
 	height: 100px;
 }
+
+.icons-list {
+	margin-top: 30px;
+	font-style: italic;
+}
 /* 
 =============================== 
 Contact Us page 
