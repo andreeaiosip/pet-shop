@@ -57,7 +57,8 @@ Navbar
 	font-size: 1.2rem;
 }
 
-.opening-line, .navbar-nav {
+.opening-line,
+.navbar-nav {
 	font-family: 'Righteous', cursive;
 }
 
@@ -66,7 +67,6 @@ Navbar
 }
 
 .nav-item {
-	
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: centre;
@@ -192,6 +192,7 @@ Contact Us page
 	padding: 0;
 	align-items: center;
 }
+
 form {
 	border-radius: 5px;
 	background-color: #f2f2f2;
@@ -252,9 +253,11 @@ Products page
 	font-weight: bold;
 	background-image: linear-gradient(to right, #fa6501, #0010ff8f);
 }
+
 .contact-place>h5 {
 	margin-top: 0;
 }
+
 .main-content-products {
 	margin-top: 90px;
 }
@@ -263,6 +266,7 @@ Products page
 	margin: 0;
 	padding: 0;
 }
+
 .category-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0, 0, 0, 0.61);
 	padding-bottom: 20px;
@@ -297,16 +301,16 @@ Products page
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
-  }
+}
 
-  .btn-sm {
+.btn-sm {
 	border-radius: 28px;
 	font-size: 16px;
 	padding: 5px 15px 5px 15px;
 	margin: 10px;
-	
 }
-  .button:hover {
+
+.button:hover {
 	background: #3cb0fd;
 	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
 	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -314,7 +318,8 @@ Products page
 	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
 	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 	text-decoration: none;
-  }
+}
+
 
 /* 
 =============================== 
@@ -329,6 +334,7 @@ Services page
 .media {
 	align-items: center;
 }
+
 
 /* 
 =============================== 
