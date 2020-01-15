@@ -279,6 +279,9 @@ Products page
 	font-size: 18px;
 }
 
+.content-prod {
+	padding-bottom: 35px;
+}
 
 .button {
 	background: #3498db;
@@ -323,7 +326,9 @@ Services page
 	margin-top: 70px;
 }
 
-
+.media {
+	align-items: center;
+}
 
 /* 
 =============================== 
