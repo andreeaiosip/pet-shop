@@ -236,6 +236,15 @@ form {
 	margin: auto;
 }
 
+.contact-place>h5 {
+	margin-top: 0;
+}
+
+
+.contact-place {
+	margin: 0;
+	padding: 0;
+}
 
 /* 
 =============================== 
@@ -254,18 +263,11 @@ Products page
 	background-image: linear-gradient(to right, #fa6501, #0010ff8f);
 }
 
-.contact-place>h5 {
-	margin-top: 0;
-}
 
 .main-content-products {
 	margin-top: 90px;
 }
 
-.contact-place {
-	margin: 0;
-	padding: 0;
-}
 
 .category-product-list {
 	box-shadow: 10px 11px 12px -11px rgba(0, 0, 0, 0.61);
