@@ -7,7 +7,7 @@
 
 #### **Task A – Design a five-page website**
 
-*Prior to designing your website, it is important that you understand exactly what is required.*
+*1. Prior to designing your website, it is important that you understand exactly what is required.*
 *Firstly, you need to interview the head of marketing for Paws for Thought Pet Store, you will need to gain the following information from the interview:*
 *the aim and content of the website;*
 *any user requirements;*
