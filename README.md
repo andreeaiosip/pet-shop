@@ -1,7 +1,9 @@
 #### ICT – Associate Professional – Software Developer - Web Development Module Project
 
 ------
-
+<h1 align="center">
+<a  href=""  target="_blank"><img  src="/testing/Home/animation-navbar-and-photo-carousel.gif"  alt="Paws4Thought desktop screen"/></a>
+</h1>
 ##### Task A – Design a five-page website
 
 *Prior to designing your website, it is important that you understand exactly what is required.*
