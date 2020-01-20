@@ -60,7 +60,7 @@ To check if the website is responsive, I have used Google Chrome and Firefox Dev
 
 
 
-**INDEX** 1
+**INDEX 1** 
 
 [HOME PAGE](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/Home.png)
 
@@ -72,3 +72,19 @@ To check if the website is responsive, I have used Google Chrome and Firefox Dev
 
 [SERVICES](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/SERVICES.png)
 
+
+------
+
+**INDEX 2**
+
+<h5 align="center">
+<a  href=""  target="_blank"><img  src="/testing/Site-map.PNG"  alt=" Site map"/></a>
+</h5>
+
+------
+
+**INDEX 3**
+
+<h5 align="center">
+<a  href=""  target="_blank"><img  src="/testing/Testing.PNG"  alt="Browsers testing performance"/></a>
+</h5>
