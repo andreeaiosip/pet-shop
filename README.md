@@ -59,7 +59,7 @@ Their main competitor “Dogs Heaven” have already an amazing website, which w
 **Responsiveness**
 To check if the website is responsive, I have used Google Chrome and Firefox Dev Tools. I have also used www.responsinator.com and you can see [HERE](http://www.responsinator.com/?url=https%3A%2F%2Fandreeaiosip.github.io%2Fpet-shop%2Findex.html) the results and how the website looks like on various screens.
 
-
+------
 
 **INDEX 1** 
 
