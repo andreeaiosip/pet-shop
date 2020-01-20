@@ -51,3 +51,22 @@ Their main competitor “Dogs Heaven” have already an amazing website, which w
   - an email link for enquiries –> on CONTACT page, PRODUCTS page and SERVICES page     –  the buttons and the email address link to the email address of the shop;
   - images – various images on the site -> see Index 1 wireframes;
   - any animation –> see Index 1 wireframes;
+  
+  
+**Responsiveness**
+To check if the website is responsive, I have used Google Chrome and Firefox Dev Tools. I have also used www.responsinator.com and you can see [HERE](http://www.responsinator.com/?url=https%3A%2F%2Fandreeaiosip.github.io%2Fpet-shop%2Findex.html) the results and how the website looks like on various screens.
+
+
+
+**INDEX** 1
+
+[HOME PAGE](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/Home.png)
+
+[CONTACT](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/CONTACT.png)
+
+[ABOUT](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/ABOUT.png)
+
+[PRODUCTS](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/PRODUCTS.png)
+
+[SERVICES](https://github.com/andreeaiosip/pet-shop/blob/master/Wireframes/SERVICES.png)
+
