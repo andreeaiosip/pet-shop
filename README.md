@@ -36,3 +36,18 @@ The shop needs a simple static 5 pages website, to highlight the following:
  -  Opening hours; 
 
 Considering the budget and time constraints, there will be no e-commerce function implemented. However, for an easy access and communication, the customers can click on a product and service to link to an automatic email completed with the details of the product/service they are interested in.
+
+Their main competitor “Dogs Heaven” have already an amazing website, which will be a source of inspiration. Colour scheme: blue and orange to be consistent with their front shop. Budget: 1000 euros Time allocated for completion: 2 weeks.
+
+------
+
+
+
+2. *The head of marketing has asked you to design a five-page website that advertises Paws for thought to clients. The designs need to show the following:*
+  - layout of each page -> see Index 1 wireframes;
+  - a navigation diagram/storyboard -> see Index 2 sitemap
+  - the format of content including CSS –> see Index 1 wireframes;
+  - any interactive features –> see Index 1 wireframes;
+  - an email link for enquiries –> on CONTACT page, PRODUCTS page and SERVICES page     –  the buttons and the email address link to the email address of the shop;
+  - images – various images on the site -> see Index 1 wireframes;
+  - any animation –> see Index 1 wireframes;
